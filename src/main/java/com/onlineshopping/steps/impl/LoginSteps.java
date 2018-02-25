@@ -26,8 +26,7 @@ public class LoginSteps {
 	public void user_have_valid_credentials() throws Throwable {
 	    System.out.println("Inside Given");
 	  
-		
-		
+			
 		wb.get("http://192.168.11.138:8080");
 		wb.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		wb.manage().window().maximize();
