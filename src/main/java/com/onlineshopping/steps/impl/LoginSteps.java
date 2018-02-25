@@ -17,8 +17,8 @@ public class LoginSteps {
 	private WebDriver wb = null;
 	
 	public LoginSteps() {
-		System.clearProperty("webdriver.chrome.driver");
-	    System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver_win32/chromedriver.exe");
+		//System.clearProperty("webdriver.chrome.driver");
+	   // System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver_win32/chromedriver.exe");
 		wb = new ChromeDriver();
 	}
 	
